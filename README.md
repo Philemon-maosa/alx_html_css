@@ -1,9 +1,36 @@
-This is a CSS project created to practice and improve my web design skills using Cascading Style Sheets.<br> The main goal of the project is to style different HTML pages and elements to create visually appealing layouts and user-friendly interfaces.
+# Advanced HTML & CSS Project
 
-In this project, I focused on learning and applying core CSS concepts such as colors, typography, spacing, positioning, and layout techniques.<br> I also explored more advanced topics like Flexbox, Grid, and media queries to make the design responsive and adaptable to different screen sizes.
+## Overview
+A modern, responsive website using advanced HTML5 and CSS3 techniques.
 
-The project includes multiple HTML pages linked together and styled consistently using an external CSS file.<br> Elements such as navigation menus, buttons, images, and forms are styled to enhance both the look and usability of the website.
+## Features
+- Responsive design (Flexbox & Grid)
+- CSS variables, transitions, animations
+- Semantic HTML for accessibility
+- Mobile-first approach
+- Optional dark/light mode
 
-This project helped me understand how CSS works in real-world scenarios and gave me hands-on experience <br>in writing clean, organized, and maintainable CSS code. I also practiced how to structure files properly by separating CSS from HTML and organizing assets like images into folders.
+## Tech Used
+- HTML5
+- CSS3
+- (Optional) JavaScript
 
-Overall, this CSS project is an important step in my journey to becoming a front-end web developer. <br>It showcases my ability to apply design principles and technical skills to build attractive and responsive web pages from scratch.
+## Folder Structure
+Includes `index.html`, CSS and assets folders, and optional JS.
+
+## Accessibility
+- Semantic tags
+- ARIA roles
+- Keyboard friendly
+- Image alt attributes
+
+## How to Run
+1. Clone the repo  
+2. Open `index.html` in a browser
+
+## Author
+- Your Name  
+- GitHub: @yourusername
+
+## License
+MIT License
