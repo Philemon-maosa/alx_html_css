@@ -1,0 +1,49 @@
+
+#first-section {
+background-color: #1e1e2f;
+text-align: center;
+color: #ffffff;
+
+
+}
+#first-section nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding 20px 40px;
+color: white
+}
+
+#first-section nav li:first-child {
+margin-right: auto;
+}
+
+#first-section nav li {
+list-style: none;
+font-weight: bold;
+padding: 10px
+}
+
+#content {
+margin-top: 180px
+}
+
+#first-section h2 {
+background-color: light-blue;
+color: #ffffff;
+font-weight: bold
+}
+
+#first-section h3 {
+color: #ffffff
+}
+
+#first-section button {
+background-color: #ffc0cb;
+color: #ffffff;
+border-radius: 50px
+}
+
+#first-section p {
+color: #ffffff
+}
