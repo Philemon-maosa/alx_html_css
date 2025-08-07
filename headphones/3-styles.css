@@ -1,0 +1,22 @@
+#contact {
+max-width: 1000px;
+text-align: center;
+background-color: #ffffff
+
+}
+
+#contact label {
+
+display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000;
+}
+
+#press {
+padding: 16px 32px;
+fonct-size: 1.2em;
+background-color: pink;
+border-radius: 50px;
+color: #ffffff
+}

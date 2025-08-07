@@ -1,0 +1,68 @@
+/* Container section */
+#speak-main {
+  max-width: 1000px;
+  margin: 50px auto;  /* Adds top space and centers content */
+  padding: 0 20px;
+  text-align: center;
+background-color: #1e1e2f;
+}
+
+/* Heading */
+#speak-heading {
+  font-size: 2em;
+  margin-bottom: 10px;
+  padding-top: 40px; /* Ensures spacing from top if no element above */
+}
+
+/* Description paragraph */
+#speak-description {
+  font-size: 1em;
+  color: #666;
+padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* Main container for all stat blocks */
+#speak-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* space between blocks */
+}
+
+/* Individual stat blocks */
+#speak-1,
+#speak-2,
+#speak-3,
+#speak-4 {
+  flex: 1 1 180px;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* Image styling (optional placeholder for now) */
+#speak-1 img,
+#speak-2 img,
+#speak-3 img,
+#speak-4 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Heading inside each block */
+#speak-1 h3,
+#speak-2 h3,
+#speak-3 h3,
+#speak-4 h3 {
+  margin: 10px 0 5px;
+}
+
+/* Paragraph inside each block */
+#speak-1 p,
+#speak-2 p,
+#speak-3 p,
+#speak-4 p {
+  font-size: 0.95em;
+  color: #444;
+}
