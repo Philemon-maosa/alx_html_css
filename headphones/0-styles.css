@@ -1,14 +1,22 @@
 
 #first-section {
+background-image: url("images/girl.jpg");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
 background-color: #1e1e2f;
 text-align: center;
+
 color: #ffffff;
 max-width: 1000px;
 margin: 50px auto;
 padding: 0 20px;
-
+padding-bottom: 30px;
+position: relative
 
 }
+
+
 #first-section nav {
 display: flex;
 justify-content: space-between;
@@ -19,12 +27,13 @@ color: white
 
 #first-section nav li:first-child {
 margin-right: auto;
+padding: 60px 60px 60px 60px
 }
 
 #first-section nav li {
 list-style: none;
 font-weight: bold;
-padding: 10px
+padding-right: 60px
 }
 
 #content {
@@ -44,7 +53,9 @@ color: #ffffff
 #first-section button {
 background-color: #ffc0cb;
 color: #ffffff;
-border-radius: 50px
+border-radius: 50px;
+width: 200px;
+padding: 12px 20px
 }
 #first-section button:hover {
 background-color: yellow
