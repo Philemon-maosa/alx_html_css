@@ -1,0 +1,60 @@
+#what { 
+max-width: 1000px;
+margin: 50px auto;
+padding: 0 20px;
+text-align: center;
+}
+#what h1 {
+font-size: 2em;
+margin-bottom: 10px
+}
+#what p { 
+font-size: 1em;
+color: #666;
+margin-bottom: 40px
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature {
+  flex: 1 1 180px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.feature img {
+  width: 50%;
+  height: auto;
+  object-fit: contain
+}
+
+.feature h3 {
+  margin: 10px 0 5px;
+}
+
+.feature p {
+  font-size: 0.95em;
+  color: #444;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+ .feature-img {
+  width:60px
+}
+}
