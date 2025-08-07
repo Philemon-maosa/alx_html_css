@@ -43,7 +43,46 @@ background-color: #ffc0cb;
 color: #ffffff;
 border-radius: 50px
 }
+#first-section button:hover {
+background-color: yellow
+}
 
 #first-section p {
 color: #ffffff
+}
+
+/* ============ Mobile Styles ============ */
+@media (max-width: 480px) {
+  nav ul,
+  nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #first-section nav li {
+    padding: 15px 0;
+  }
+
+  #content {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .feature,
+  .result {
+    margin-bottom: 2em;
+  }
 }
