@@ -11,7 +11,7 @@ color: #dcdcdc
 }
 
 #speak-1 p {
-color: #ffffff
+color: #ffffff;
 }
 #speak-2 p {
 color: #ffffff
@@ -21,5 +21,75 @@ color: #ffffff
 }
 #speak-4 p {
 color: #ffffff
+}
+
+
+@media (max-width: 768px) {
+  #speak-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    color: #ffffff;
+  }
+
+  #speak-heading {
+    color: #f2f2f2;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  #speak-description {
+    color: #dcdcdc;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #speak-1 {
+   width: 80%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+  #speak-2,
+  #speak-3,
+  #speak-4 {
+    width: 80%;
+    max-width: 300px;
+    margin: 10px 0;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  #speak-1 img,
+  #speak-2 img,
+  #speak-3 img,
+  #speak-4 img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+ 
+  #speak-1 p,
+  #speak-2 p,
+  #speak-3 p,
+  #speak-4 p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  #speak-1 h3,
+  #speak-2 h3,
+  #speak-3 h3,
+  #speak-4 h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 5px 0;
+  }
 }
 

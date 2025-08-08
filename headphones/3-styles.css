@@ -1,22 +1,51 @@
 #contact {
-max-width: 1000px;
-text-align: center;
-background-color: #ffffff
+  max-width: 1000px;
+  margin: 0 auto;                /* Center the section horizontally */
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px 20px;            /* Add padding for spacing */
+}
 
+#contact form {
+  display: inline-block;
+  text-align: left;
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 #contact label {
-
-display: block;
+  display: block;
   margin-bottom: 5px;
   font-weight: bold;
   color: #000;
 }
 
 #press {
-padding: 16px 32px;
-fonct-size: 1.2em;
-background-color: pink;
-border-radius: 50px;
-color: #ffffff
+  padding: 8px 16px;
+  font-size: 1em;
+  background-color: #FF6F61;
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;                 /* Remove default border */
+  margin-top: 10px;             /* Add spacing from fields */
+}
+
+@media (max-width: 600px) {
+  #contact {
+    padding: 20px 10px;
+  }
+
+  #contact form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #press {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+  }
 }

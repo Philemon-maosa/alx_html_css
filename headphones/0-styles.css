@@ -1,7 +1,7 @@
 
 #first-section {
-background-image: url("images/girl.jpg");
-background-size: contain;
+background-image: url("images/headphones_hero_1.jpg");
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-color: #1e1e2f;
@@ -16,6 +16,9 @@ position: relative
 
 }
 
+#logo img {
+height: 40px
+}
 
 #first-section nav {
 display: flex;
@@ -36,6 +39,23 @@ font-weight: bold;
 padding-right: 60px
 }
 
+#hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition: 0.3s ease;
+}
+
+
 #content {
 margin-top: 180px
 }
@@ -51,7 +71,7 @@ color: #ffffff
 }
 
 #first-section button {
-background-color: #ffc0cb;
+background-color: #FF6F61;
 color: #ffffff;
 border-radius: 50px;
 width: 200px;
@@ -93,12 +113,17 @@ margin-bottom: 40px
   flex: 1 1 180px;
   max-width: 200px;
   text-align: center;
+  color: black
 }
 
+#pink {
+ filter: invert(25%) sepia(88%) saturate(746%) hue-rotate(310deg) brightness(100%) contrast(95%);
+}
 .feature img {
-  width: 50%;
-  height: auto;
+  width: 80px;
+  height: 80px;
   object-fit: contain
+  color: #FF6F61
 }
 
 .feature h3 {
@@ -107,7 +132,7 @@ margin-bottom: 40px
 
 .feature p {
   font-size: 0.95em;
-  color: #444;
+  color: black;
 }
 
 
@@ -159,5 +184,21 @@ margin-bottom: 40px
 
   .feature {
     max-width: 100%;
+  }
+}
+
+nav li:not(#logo) {
+  
+  }
+
+  nav.active li {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: #333;
+  }
+
+  #hamburger {
+    display: flex;
   }
 }
